@@ -1,0 +1,21 @@
+html,body {
+    margin: 0;
+}
+.header {
+    width: 100%;
+    background-color: chocolate;
+    text-align: center;
+    
+}
+a {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blanchedalmond;
+    letter-spacing: 7px;
+    margin: 2%;
+}
+.content {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    text-align: center;
+}
