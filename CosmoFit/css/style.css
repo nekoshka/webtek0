@@ -3,30 +3,23 @@
 	padding: 0;
 }
 body {
-    background: #5456DE;
 	font-family: "Lucida Console", Monaco, monospace;
-	min-width: 700px;
-	color: #172635;
 	padding: 0;
+	background-image: url('../img/bg.jpg');
 }
-
+a{
+	text-decoration: none; 
+}
 .stickyHeader{
-    background: #368aae;
-    float: left;
     width: 100%;
 	padding: 0;
 	position: fixed;
 	top: 0;
+	background: rgba(0, 0, 0, 0.9);
 }
-.stickyHeader img{
-    height: 150px;
-	width: 125px;
-	float: left;
-}
-.stickyHeader img{
-    height: 150px;
-	width: 125px;
-	float: left;	
+.stickyHeader h3{
+	color: #FFFFFF;
+	text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #FFFFFF, 0 0 30px #FFFFFF, 0 0 40px #FFFFFF, 0 0 55px #FFFFFF, 0 0 75px #FFFFFF;
 }
 .navHeader{
 	padding: 0;	
@@ -37,33 +30,35 @@ body {
 	padding: 0;	
 }
 .navHeader a{
-	line-height: 10.5;
+	margin-left: 40px;
+	margin-top: 35.3px;
 	text-decoration: none;
 	text-align: center;
 	float: left;
-	margin-left: 1.5%;
-	width: 5.3%;
-	height: 150px;
-	min-height: 30px;
-	font-size: 1.5vh;
+	width: 10.3%;
+	height: 20px;
+	font-size: 2.5vh;
 }
-.navHeader a:hover{
-	background: #A8C8DF;
+.stickyHeader img{
+    height: 100px;
+	width: 100px;
+	float: left;
+	margin-left: 0;
 }
 #advert{
 	height: 300px;
 	width: 100%;
 	background: white;
 }
-#pathSelect{
-	opacity: 0.3;
+#pathSelect{	
 	height: 600px;
-	width: auto;
-	background: #368aae;
+	width: 100%;
+	margin: 0;	
 }
 #logo{
-    height: 150px;
-	width: 125px;
+	margin-top: 0;
+    height: 100px;
+	width: 100px;
 	float: left;	
 }
 #info{
@@ -76,21 +71,35 @@ footer{
 	width: auto;
 	background: white;
 }
-#selectLose{
-	height: 350px;
-	width: 350px;
-	background-color: Red;
-	border-radius: 50%;
-	display: inline-block;
-	margin-top: 200px;
-	margin-left: 25%;
+.selectLoseDiv{
+	line-height: 225px;
+	height: 225px;
+	width: 100%;
+	margin: 0;
+	margin-top: 150px;
+	margin-bottom: 10px;
+	text-align: center;
 }
-#selectGain{
-	height: 350px;
-	width: 350px;
-	background-color: Red;
-	border-radius: 50%;
-	display: inline-block;
-	margin-top: 200px;
-	margin-left: 10%;
+.selectLose :hover{
+	transition: 1s;
+	background: rgba(0, 0, 0, 0.4);	
+}
+.selectLose h1{
+	color: #FFFFFF;	
+	text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FFFFFF 0px 0px 20px, #FFFFFF 0px 0px 30px, #FFFFFF 0px 0px 40px, #FFFFFF 0px 0px 50px, #FFFFFF 0px 0px 75px;
+}
+.selectGainDiv{
+	line-height: 225px;
+	height: 225px;
+	width: 100%;
+	margin: 0;
+}
+.selectGain :hover{
+	transition: 1s;	
+	background: rgba(0, 0, 0, 0.4);	
+}
+.selectGain h1{
+	text-align: center;
+	color: #FFFFFF;	
+	text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FFFFFF 0px 0px 20px, #FFFFFF 0px 0px 30px, #FFFFFF 0px 0px 40px, #FFFFFF 0px 0px 50px, #FFFFFF 0px 0px 75px;
 }
