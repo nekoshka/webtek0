@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+    background: #5456DE;
+	font-family: "Lucida Console", Monaco, monospace;
+	min-width: 700px;
+	color: #172635;
+	padding: 0;
+}
+
+.stickyHeader{
+    background: #368aae;
+    float: left;
+    width: 100%;
+	padding: 0;
+	position: fixed;
+	top: 0;
+}
+.stickyHeader img{
+    height: 150px;
+	width: 125px;
+	float: left;
+}
+.stickyHeader img{
+    height: 150px;
+	width: 125px;
+	float: left;	
+}
+.navHeader{
+	padding: 0;	
+}
+.navHeader ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+}
+.navHeader a{
+	line-height: 10.5;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+	margin-left: 1.5%;
+	width: 5.3%;
+	height: 150px;
+	min-height: 30px;
+	font-size: 1.5vh;
+}
+.navHeader a:hover{
+	background: #A8C8DF;
+}
+#advert{
+	height: 300px;
+	width: 100%;
+	background: white;
+}
+#pathSelect{
+	opacity: 0.3;
+	height: 600px;
+	width: auto;
+	background: #368aae;
+}
+#logo{
+    height: 150px;
+	width: 125px;
+	float: left;	
+}
+#info{
+    height: 300px;
+	width: auto;
+	background: #368aae;
+}
+footer{
+	height: 50px;
+	width: auto;
+	background: white;
+}
+#selectLose{
+	height: 350px;
+	width: 350px;
+	background-color: Red;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 200px;
+	margin-left: 25%;
+}
+#selectGain{
+	height: 350px;
+	width: 350px;
+	background-color: Red;
+	border-radius: 50%;
+	display: inline-block;
+	margin-top: 200px;
+	margin-left: 10%;
+}
