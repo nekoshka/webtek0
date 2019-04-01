@@ -18,8 +18,11 @@ a{
 	background: rgba(0, 0, 0, 0.9);
 }
 .stickyHeader h3{
+	color: #FFFFFF;	
+}
+.stickyHeader h3:hover{
 	color: #FFFFFF;
-	text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #FFFFFF, 0 0 30px #FFFFFF, 0 0 40px #FFFFFF, 0 0 55px #FFFFFF, 0 0 75px #FFFFFF;
+	text-shadow: #FFF 0px 0px 10px, #FFF 0px 0px 10px, #FFF 0px 0px 10px;	
 }
 .navHeader{
 	padding: 0;	
@@ -46,7 +49,7 @@ a{
 	margin-left: 0;
 }
 #advert{
-	height: 300px;
+	height: 250px;
 	width: 100%;
 	background: white;
 }
@@ -62,14 +65,15 @@ a{
 	float: left;	
 }
 #info{
-    height: 300px;
+    height: 250px;
 	width: auto;
-	background: #368aae;
+	color: white;
+	background: rgba(0, 0, 0, 0.7);
 }
 footer{
-	height: 50px;
+	height: 30px;
 	width: auto;
-	background: white;
+	background: black;
 }
 .selectLoseDiv{
 	line-height: 225px;
@@ -82,11 +86,14 @@ footer{
 }
 .selectLose :hover{
 	transition: 1s;
-	background: rgba(0, 0, 0, 0.4);	
+	background: rgba(0, 0, 0, 0.4);
+	text-shadow: #FFF 0px 0px 50px, #FFF 0px 0px 50px, #FFF 0px 0px 50px;
 }
 .selectLose h1{
+	text-align: center; 
 	color: #FFFFFF;	
-	text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FFFFFF 0px 0px 20px, #FFFFFF 0px 0px 30px, #FFFFFF 0px 0px 40px, #FFFFFF 0px 0px 50px, #FFFFFF 0px 0px 75px;
+	font-size: 80px;
+	width: 100%;
 }
 .selectGainDiv{
 	line-height: 225px;
@@ -96,10 +103,12 @@ footer{
 }
 .selectGain :hover{
 	transition: 1s;	
-	background: rgba(0, 0, 0, 0.4);	
+	background: rgba(0, 0, 0, 0.4);
+	text-shadow: #FFF 0px 0px 50px, #FFF 0px 0px 50px, #FFF 0px 0px 50px;
 }
-.selectGain h1{
-	text-align: center;
+.selectGain h1{ 
+	text-align: center; 
 	color: #FFFFFF;	
-	text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FFFFFF 0px 0px 20px, #FFFFFF 0px 0px 30px, #FFFFFF 0px 0px 40px, #FFFFFF 0px 0px 50px, #FFFFFF 0px 0px 75px;
+	font-size: 80px;
+	width: 100%;
 }
