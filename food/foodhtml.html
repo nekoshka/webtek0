@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button id="gettext">CLICK ME</button>
+    <script>
+        document.getElementById('gettext').addEventListener('click',gettext);
+
+        function gettext() {
+            fetch('https://api.edamam.com/api/food-database/parser?ingr=red%20apple&app_id=aabfeda2&app_key=4876ff911a79e2817beadea9ef4c9828')
+            .then((res) => res.json())
+            .then((data) => {
+                let output = '<h2>Users</h2>'
+                console.log(data);
+            })
+        }
+    </script>
+</body>
+</html>
