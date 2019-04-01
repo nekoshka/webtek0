@@ -5,8 +5,10 @@
 body {
 	font-family: "Lucida Console", Monaco, monospace;
 	padding: 0;
-	background-image: url('../img/bg.jpg');
-	background-size: contain;
+	background-image: url('../images/bgggg.jpg');
+	background-size: fill;
+	background-position: center;
+	background-attachment: fixed;
 }
 a{
 	text-decoration: none; 
